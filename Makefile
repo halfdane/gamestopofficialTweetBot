@@ -1,6 +1,6 @@
 SHELL := /bin/bash
 
-PROJECT=superstonkTweetBot
+PROJECT=gamestopOfficialTweetBot
 RASPI_USER=pi@redditbot
 
 .PHONY: fake_run

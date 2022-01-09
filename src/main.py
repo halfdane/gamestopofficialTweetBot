@@ -1,4 +1,4 @@
-import sys, getopt, os
+import sys, getopt
 import logging
 
 from twitter_front import TwitterFront
@@ -19,7 +19,7 @@ def main(argv):
         logging.info("Running in test mode")
 
     reddit_front = RedditFront(test=test)
-    twitter_front = TwitterFront(reddit_front.create_tweet_post, test=test)
+    twitter_front = TwitterFront(reddit_front.amend_tweet_post, test=test)
     twitter_front.stream()
 
 

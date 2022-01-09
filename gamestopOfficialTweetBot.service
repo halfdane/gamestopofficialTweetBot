@@ -1,9 +1,9 @@
 [Unit]
-Description=The GamestopOfficial tweetbot
+Description=The GamestopOfficial TweetBot
 After=multi-user.target
 
 [Service]
-WorkingDirectory=/home/pi/gmeOfficialTweetBot
+WorkingDirectory=/home/pi/gamestopOfficialTweetBot
 ExecStart=/usr/bin/make run
 User=pi
 

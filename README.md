@@ -1,6 +1,6 @@
-# superstonkTweetBot
+# gamestopOfficialTweetBot
 
-a bot that monitors a select list of twitter handles and submits a post into superstonk whenever one of them tweets
+a bot that monitors a select list of twitter handles and adjusts a collection post into gamestopOfficial whenever one of them tweets
 
 Passing the parameter '-t' enables the test-mode which doesn't create a reddit post.
 
@@ -20,7 +20,7 @@ You have to export the following environment variables:
     export twitter_api_access_token="twitter_api_access_token"
     export twitter_api_access_token_secret="twitter_api_access_token_secret"
 
-    export target_subreddit="Superstonk or a test subreddit"
+    export target_subreddit="gamestopOfficial or a test subreddit"
 
 Afterwards execute
 
